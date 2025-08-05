@@ -129,6 +129,7 @@ function graficarVectores3D(A, B, proy) {
     Plotly.newPlot('graficaVectores3D', [
         vectorPlot('Vector A', A, 'red'),
         vectorPlot('Vector B', B, 'blue'),
-        vectorPlot('Proyección', proy, 'green')
+        vectorPlot('Proyección', proy, 'purple')
     ], layout);
 }
+
