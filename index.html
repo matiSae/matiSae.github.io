@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Calculadora Producto Punto Entre Dos Vectores</title>
 
     <!-- Fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet" />
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Chart.js (para vectores 2D) -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
-    <!-- Plotly.js (para vectores 3D) -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Plotly.js versión moderna (v2.32.0) para vectores 3D -->
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
 </head>
 
 <body>
@@ -28,14 +28,14 @@
         <section>
             <p>Ingresa los componentes de los vectores A y B:</p>
 
-            <label for="vectorA">Vector A (Ej: 1,2 o 1,2,3):</label><br>
-            <input type="text" id="vectorA" placeholder="Ej: 1,2 o 1,2,3"><br>
+            <label for="vectorA">Vector A (Ej: 1,2 o 1,2,3):</label><br />
+            <input type="text" id="vectorA" placeholder="Ej: 1,2 o 1,2,3" /><br />
 
-            <label for="vectorB">Vector B (Ej: 4,5 o 4,5,6):</label><br>
-            <input type="text" id="vectorB" placeholder="Ej: 4,5 o 4,5,6"><br>
+            <label for="vectorB">Vector B (Ej: 4,5 o 4,5,6):</label><br />
+            <input type="text" id="vectorB" placeholder="Ej: 4,5 o 4,5,6" /><br />
 
-            <label for="angulo">Ángulo entre A y B (grados):</label><br>
-            <input type="number" id="angulo" placeholder="Ej: 45"><br><br>
+            <label for="angulo">Ángulo entre A y B (grados):</label><br />
+            <input type="number" id="angulo" placeholder="Ej: 45" /><br /><br />
 
             <button onclick="calcularProductoPunto()">Calcular Producto Punto</button>
 
